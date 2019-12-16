@@ -1,15 +1,11 @@
-import javax.crypto.Cipher;
-import javax.crypto.NoSuchPaddingException;
-import java.security.NoSuchAlgorithmException;
+package io.dropwizard.auth;
 
 public class Demo {
-    public static void main(String[] args) throws Exception {
-        String rpository = "test";
+    public static final String RPOSITORY = "testRepo";
+    public static void main(String[] args) {
         int wek = 4;
         String day;
     
-        Cipher c = Cipher.getInstance("DESede/ECB/PKCS5Padding");
-        
         switch (wek) {
             case 1:
                 day = "Sunday";

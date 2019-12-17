@@ -119,6 +119,8 @@ public class Environment {
         }
     }
 
+public void testMethod(){}
+
     /**
      * Creates an environment with the system classloader, default object mapper, default validator factory,
      * default health check registry, and default configuration for tests.

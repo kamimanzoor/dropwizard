@@ -1,8 +1,8 @@
 package io.dropwizard.auth;
 
 public class Demo {
-    public static final String RPOSITORY = "testRepo";
     public static void main(String[] args) {
+        String rpository = "testRepo";
         int wek = 4;
         String day;
     
